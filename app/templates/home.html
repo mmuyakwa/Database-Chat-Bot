@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Database-Chat-Bot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Database-Chat-Bot</h1>
+        <form method="POST">
+            <div class="input-field">
+                <input type="text" id="question" name="question" placeholder="Ask a question">
+            </div>
+            <button class="btn waves-effect waves-light" type="submit">Submit</button>
+        </form>
+        {% if sql_query %}
+            <h3>SQL Query:</h3>
+            <pre>{{ sql_query }}</pre>
+            <h3>Results:</h3>
+            {% if results %}
+                <table>
+                    <thead>
+                        <tr>
+                            {% for column in results[0].keys() %}
+                                <th>{{ column }}</th>
+                            {% endfor %}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in results %}
+                            <tr>
+                                {% for value in row.values() %}
+                                    <td>{{ value }}</td>
+                                {% endfor %}
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% else %}
+                <p>No results found.</p>
+            {% endif %}
+        {% endif %}
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

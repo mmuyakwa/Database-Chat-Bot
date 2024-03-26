@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  database-chat-bot:
+    hostname: database-chat-bot
+    container_name: database-chat-bot
+    build: ./app
+    environment:
+      - FLASK_ENV=production
+      - FLASK_APP=app.py
+      - FLASK_RUN_HOST=0.0.0.0
+      - TZ=Europe/Berlin
+    ports:
+      - "5070:5000"
+    volumes:
+      - ./app:/app
+      - ./.env:/app/.env
+    env_file:
+      - .env
+    command: python app.py
+    restart: unless-stopped
+
