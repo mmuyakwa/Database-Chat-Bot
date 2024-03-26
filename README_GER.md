@@ -10,7 +10,7 @@ Das Projekt "Database-Chat-Bot" ist eine Anwendung, die es ermöglicht, SQL-Abfr
 
 ## Beispiel
 
-<video src="video/demo-video.mp4" controls></video>
+![Video-Demo](./video/demo-video.gif)
 
 ## Verwendung des Projekts via Docker-Compose
 

@@ -10,7 +10,7 @@ The "Database-Chat-Bot" project is an application that allows users to query SQL
 
 ## Example
 
-<video src="video/demo-video.mp4" controls></video>
+![Video-Demo](./video/demo-video.gif)
 
 ## Using the Project via Docker-Compose
 

@@ -48,3 +48,4 @@ __pycache__/
 app/__pycache__
 .DS_Store
 DocumentFiles.txt
+video/demo-video.mp4
