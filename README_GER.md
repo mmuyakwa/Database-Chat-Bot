@@ -12,6 +12,23 @@ Das Projekt "Database-Chat-Bot" ist eine Anwendung, die es ermöglicht, SQL-Abfr
 
 ![Video-Demo](./video/demo-video.gif)
 
+## Bevor Sie beginnen
+
+Bennenen Sie die Datei `EXAMPLE.env` in `.env` um und füllen Sie die erforderlichen Umgebungsvariablen aus.
+
+Editieren Sie die `.env`-Datei und fügen Sie die folgenden Umgebungsvariablen hinzu:
+
+```env
+ANTHROPIC_API_KEY = "YOUR_ANTHROPIC_API_KEY"
+FLASK_APP=app.py
+FLASK_ENV=development
+DB_HOST=YOUR_DB_HOST
+DB_PORT=1433
+DB_NAME=YOUR_DB_NAME
+DB_USER=YOUR_DB_USER
+DB_PASSWORD=YOUR_DB_PASSWORD
+```
+
 ## Verwendung des Projekts via Docker-Compose
 
 Um das Projekt mit Docker-Compose zu verwenden, führen Sie die folgenden Schritte aus:
