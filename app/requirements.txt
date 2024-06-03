@@ -1,7 +1,7 @@
 annotated-types==0.6.0
 anthropic==0.26.1
 anyio==4.4.0
-autopep8==2.1.0
+autopep8==2.2.0
 blinker==1.8.2
 certifi==2024.2.2
 charset-normalizer==3.3.2
