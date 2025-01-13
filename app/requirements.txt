@@ -20,7 +20,7 @@ Jinja2==3.1.5
 MarkupSafe==3.0.2
 packaging==24.2
 pycodestyle==2.12.1
-pydantic==2.10.4
+pydantic==2.10.5
 pydantic_core==2.27.2
 pymssql==2.3.2
 python-dotenv==1.0.1
