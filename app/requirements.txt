@@ -16,7 +16,7 @@ httpx==0.28.1
 huggingface-hub==0.29.1
 idna==3.10
 itsdangerous==2.2.0
-Jinja2==3.1.5
+Jinja2==3.1.6
 MarkupSafe==3.0.2
 packaging==24.2
 pycodestyle==2.12.1
