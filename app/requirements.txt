@@ -19,7 +19,7 @@ itsdangerous==2.2.0
 Jinja2==3.1.6
 MarkupSafe==3.0.2
 packaging==24.2
-pycodestyle==2.12.1
+pycodestyle==2.13.0
 pydantic==2.10.6
 pydantic_core==2.32.0
 pymssql==2.3.2
