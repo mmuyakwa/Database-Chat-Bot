@@ -21,7 +21,7 @@ markupsafe==3.0.3
 packaging==25.0
 pycodestyle==2.14.0
 pydantic==2.11.9
-pydantic-core==2.39.0
+pydantic-core==2.40.1
 pymssql==2.3.7
 python-dotenv==1.1.1
 pyyaml==6.0.3
