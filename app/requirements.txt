@@ -31,5 +31,5 @@ tokenizers==0.22.2
 tqdm==4.67.1
 typing-extensions==4.15.0
 urllib3==2.6.3
-werkzeug==3.1.4
+werkzeug==3.1.5
 wheel==0.45.1
